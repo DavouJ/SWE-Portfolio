@@ -139,10 +139,9 @@ div.glaze{
 
 .projects{
     min-height: 90vh;
-    max-height: 300vh;
     background-image: linear-gradient(rgba(255, 255, 255, 1), black);
-    align-items: center;
-    padding: 20vh;
+    
+    padding: 20%;
 }
 
 .card{
@@ -154,5 +153,21 @@ div.glaze{
     height:15rem;
     object-fit: cover;
     object-position: 0, 0 !important;
+    
+}
+
+.experience{
+    min-height: 90vh;
+    background-image: linear-gradient(black, white);
+    padding: 25%;
+}
+
+.expCard{
+    min-height: 360px;
+}
+
+.contactMe{
+    min-height: 90vh;
+    background-image: linear-gradient(white, black,);
     
 }

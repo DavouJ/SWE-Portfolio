@@ -32,10 +32,10 @@
                     <a class="nav-link active" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Work Experience</a>
+                    <a class="nav-link active" href="#skills">Work Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-disabled="true">Contact Me</a>
+                    <a class="nav-link active" href="#contactMe">Contact Me</a>
                 </li>
                 </ul>
             </div>
@@ -62,8 +62,6 @@
             </div>
         </div>
     </section>
-
-
     
     <section class="aboutMeSection" id="aboutMe">
         <div class="d-flex justify-content-center  align-items-center p-5 darkBreak darkTitle" >          
@@ -94,8 +92,8 @@
             <h2 class="display-1 fw-bold lightTitle">Projects</h2> 
         </div>
 
-        <div class="container-fluid px-5  projects" >
-            <div class="row p-3 justify-content-evenly">
+        <div class="container-fluid px-5 projects" >
+            <div class="row p-3 gy-5 justify-content-evenly">
                 <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
                     <img src="./assets/images/davouj-github-io-code-refactoring-starter.JPG" class="card-img-top p-3 rounded-5 projectImages border" title="Code refractor screenshot" alt="Code refractor screenshot">
                     <div class="card-body">
@@ -134,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="row p-3 justify-content-evenly">
+            <div class="row p-3 gy-5 justify-content-evenly">
                 <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
                     <img src="./assets/images/solar-gif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Code refractor screenshot" alt="Code refractor screenshot">
                     <div class="card-body">
@@ -144,7 +142,7 @@
                         <p class="fs-6 m-0">Java</p>
                       </div>
                     <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="#aboutMe" type="button">Website </a>
+                        <a class="btn btn-outline-dark btn-lg" href="#aboutMe" type="button">Git Repository </a>
                     </div>
                 </div>
                 <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
@@ -177,92 +175,88 @@
 
 
     <section class="experienceSection" id="skills">
-        <div class="d-flex justify-content-center  align-items-center p-5 darkBreak darkTitle" >
-            <h2 class="display-1 fw-bold lightTitle">Work Experience</h2> 
+        <div class="d-flex justify-content-center  p-5 darkBreak darkTitle" >
+            <h2 class="display-1 fw-bold darkTitle">Work Experience</h2> 
         </div>
 
-        <div class="container-fluid px-5  projects" >
-            <div class="row p-3 justify-content-evenly">
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/davouj-github-io-code-refactoring-starter.JPG" class="card-img-top p-3 rounded-5 projectImages border" title="Code refractor screenshot" alt="Code refractor screenshot">
-                    <div class="card-body">
-                      <h5 class="card-title">Code Refractor</h5>
+        <div class="container-fluid px-5 experience align-items-center" >
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-inner rounded-5">
+                  <div class="carousel-item active">
+                    <div class="card px-5 text-center d-block w-100" style="width: 18rem;">
+                        <div class="card-body px-5 expCard">
+                          <h5 class="card-title">Project Manager/Consultant, Carlisle/Warrington/Crewe</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary"> Nuclear Transport Solutions / May 2023 – August 2023  
+                            </h6>
+                            <br>
+                            <p class="card-text">Spearheaded the development of a sustainability strategy for Nuclear Transport Solutions (NTS) in response to the recent merger of two of its subsidiaries to align with the Nuclear Decommissioning Authority’s (NDA) strategy.
+                            </p>
+                            <ul>
+                            <li> Held overall responsibility for the project’s lifecycle, including activity planning, cost management, execution, quality control, delivery, and closure.</li>
+                            <li>Effectively handled stakeholder requirements, establishing and managing objectives, scope, constraints, deliverables and expectations for the project.</li>
+                            <li>Built and maintained client relationships in order to conduct customer and market research and eventually develop a final audit and subsequent product.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">HTML/CSS</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="#aboutMe" type="button">Website </a>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card px-5 text-center d-block w-100" style="width: 18rem;">
+                        <div class="card-body px-5 expCard">
+                          <h5 class="card-title">IT Operations Assistant, Lancaster</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Lancaster University / October 2022 – July 2023  
+                          </h6>
+                          <br>
+                          <p class="card-text">Managed various teaching and lab spaces as part of Lancaster University's Information System Services team, ensuring the functionality of IT equipment in the spaces under my responsibility.
+                          </p>
+                          <ul>
+                            <li>Participated in agile Working Projects, assisting and leading over 10 campus-wide IT equipment installations. </li>
+                            <li>Actively participated in solutions meetings with the IT Engineering team to address university-wide IT challenges whilst also being on-call and ready to address any issues independently and promptly in designated spaces before the start of each day.</li>
+                        </ul>
+                        </div>
                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card px-5 text-center d-block w-100" style="width: 18rem;">
+                        <div class="card-body px-5 expCard">
+                          <h5 class="card-title">Crew member, Eltham </h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary"> McDonalds, July 2018 - November 2018  
+                          </h6>
+                          <br>
+                          <p class="card-text">Performed a diverse range of tasks in a fast-paced environment, including food preparation for customers and delivery drivers; taking orders; and stewarding.
+                          </p>
+                          <ul>
+                            <li>Coordinated responsibilities collaboratively in a team to deliver meals swiftly and efficiently to customers.</li>
+                            <li>Consistently engaged with customers to provide them with an outstanding dining experience.</li>
+                            <li>Displayed a resilient nature in managing customer interactions, maintaining a high communication standard with customers in all situations.</li>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/quantumgif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Code refractor screenshot" alt="Code refractor screenshot">
-                    <div class="card-body">
-                      <h5 class="card-title">Quantum Bitcoin</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">Java</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="https://github.com/DavouJ/QuantumBlockchain-2022" type="button">Git Repository </a>
-                    </div>
-                </div>
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/minesweepergif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Minesweeper GIF" alt="Minesweeper GIF">
-                    <div class="card-body">
-                      <h5 class="card-title">Minesweeper</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">Java</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="https://github.com/DavouJ/Minesweeper" type="button">Git Repository </a>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
+        </div>
+    </section>
 
-            <div class="row p-3 justify-content-evenly">
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/solar-gif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Code refractor screenshot" alt="Code refractor screenshot">
-                    <div class="card-body">
-                      <h5 class="card-title">Solar System</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">Java</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="#aboutMe" type="button">Website </a>
-                    </div>
-                </div>
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/pinggif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Ping calculator GIF" alt="Ping calculator GIF">
-                    <div class="card-body">
-                      <h5 class="card-title">Ping Calculator</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">Python</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="https://github.com/DavouJ/Ping-Traceroute" type="button">Git Repository </a>
-                    </div>
-                </div>
-                <div class="col col-12 card p-3 rounded-5 " style="width: 18rem">
-                    <img src="./assets/images/portfoliogif.gif" class="card-img-top p-3 rounded-5 projectImages border" title="Portfolio gif" alt="Portfolio gif">
-                    <div class="card-body">
-                      <h5 class="card-title">Old Portfolio</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-6 m-0">HTML/CSS</p>
-                      </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-dark btn-lg" href="https://davouj.github.io/Portfolio-Davou/" type="button">Website </a>
-                    </div>
-                </div>
+    <section class="contactMeSection" id="contactMe">
+        <div class="d-flex justify-content-center  align-items-center p-5 lightBreak lightTitle" >          
+            <h2 class="display-1 fw-bold lightTitle">Contact Me</h2>
+        </div>
+
+        <div class="container-fluid contactMe" >
+            <div class="row">
+               
             </div>
         </div>
 
     </section>
-
 
 
     <!-- Optional JavaScript -->
