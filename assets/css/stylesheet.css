@@ -163,11 +163,18 @@ div.glaze{
 }
 
 .expCard{
-    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 42vh;
 }
 
 .contactMe{
-    min-height: 90vh;
+    min-height: 45vh;
     background-image: linear-gradient(white, black,);
     
+}
+
+.contactImg{
+    min-height: 24vh;
 }
