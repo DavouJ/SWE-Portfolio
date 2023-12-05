@@ -171,10 +171,16 @@ div.glaze{
 
 .contactMe{
     min-height: 45vh;
-    background-image: linear-gradient(white, black,);
+    background-color: white;
     
 }
 
 .contactImg{
     min-height: 24vh;
+}
+
+.footerText{
+    background-image: linear-gradient(white, black);
+    min-height: 20vh;
+    padding:5%;
 }
