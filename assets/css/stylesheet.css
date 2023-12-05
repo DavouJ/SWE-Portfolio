@@ -183,4 +183,28 @@ div.glaze{
     background-image: linear-gradient(white, black);
     min-height: 20vh;
     padding:5%;
+    text-align: center;
 }
+
+.social {
+    margin-top: 5rem;
+  }
+.social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+ .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+.social a:active {
+    color: #fff;
+  }
+
+  .rights{
+    color:white;
+  }
