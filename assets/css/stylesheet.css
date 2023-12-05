@@ -150,7 +150,7 @@ div.glaze{
 }
 
 .projectImages{
-    height:15rem;
+    height:7rem;
     object-fit: cover;
     object-position: 0, 0 !important;
     
@@ -186,9 +186,6 @@ div.glaze{
     text-align: center;
 }
 
-.social {
-    margin-top: 5rem;
-  }
 .social a {
     text-align: center;
     height: 3rem;
