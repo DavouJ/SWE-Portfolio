@@ -1,0 +1,158 @@
+
+body{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+h1{
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight:200;
+  letter-spacing: 1px;
+}
+
+header{
+    position: relative ;
+}
+
+
+.nav{
+    background: rgba(255, 255, 255,0.7);
+}
+
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/yosemite.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.glaze{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 1));
+    padding:15%;
+} 
+
+.nameBox{
+    text-align: center;
+}
+
+
+.box{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.animation span{
+    position: relative;
+}
+
+.animation span::before{
+    content: "Programmer";
+    color:#333;
+    animation: words 20s infinite;
+
+}
+
+.animation span::after{
+    content: "";
+    background-color: rgba(255, 255, 255, 1);
+    position:absolute;
+    width: calc(100% + 8px);
+    height:100%;
+    border-left:2px solid #333;
+    right: -8px;
+    animation: cursor .6s infinite, typing 20s steps(18) infinite;
+}
+
+
+
+@keyframes cursor{
+    to{
+        border-left:2px solid rgb(227, 236, 227);
+    }
+}
+
+
+@keyframes  words{
+    0%, 20%{
+        content: "Front-end Developer";
+    }
+
+    21%, 40%{
+        content: "Back-end Developer";
+    }
+    41%, 60%{
+        content: "Project Manager";
+    }
+    61%,80%{
+        content: "Product Owner";
+    }
+    81%,100%{
+        content: "Photographer";
+    }
+}
+
+@keyframes typing{
+    10%, 15%, 30%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+    
+}
+
+.darkBreak{
+    
+    background-color: black;
+}
+
+.lightBreak{
+    
+    background-color: white;
+}
+.aboutMe{
+    min-height: 90vh;
+    max-height: 300vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+    
+}
+
+.aboutMeText{
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.darkTitle{
+    color: white;
+}
+.lightTitle{
+    
+    color: black;
+}
+
+.projects{
+    min-height: 90vh;
+    max-height: 300vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), black);
+    align-items: center;
+    padding: 20vh;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.6) ;
+    border:none;
+}
+
+.projectImages{
+    height:15rem;
+    object-fit: cover;
+    object-position: 0, 0 !important;
+    
+}
