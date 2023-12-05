@@ -10,19 +10,19 @@ h1{
   letter-spacing: 1px;
 }
 
-header{
-    position: relative ;
-}
-
 
 .nav{
     background: rgba(255, 255, 255,0.7);
 }
 
+.collapseable{
+    display: flex;
+    justify-content: end;
+}
 
 
 .hero{
-    position: relative;
+    
     width: 100%;
     height: 100vh;
     background: url("../images/yosemite.jpeg");
@@ -150,7 +150,7 @@ div.glaze{
 }
 
 .projectImages{
-    height:7rem;
+    height:15rem;
     object-fit: cover;
     object-position: 0, 0 !important;
     
@@ -166,7 +166,7 @@ div.glaze{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 42vh;
+    min-height: 56vh;
 }
 
 .contactMe{
@@ -186,10 +186,13 @@ div.glaze{
     text-align: center;
 }
 
+.social{
+    padding-left:43%;
+    padding-right:43%;
+}
 .social a {
-    text-align: center;
-    height: 5rem;
-    width: 5rem;
+    
+    
     background: rgba(94, 94, 94, 0.5);
     border-radius: 100%;
     
