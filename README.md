@@ -19,11 +19,11 @@ Application deployed via the live GitHub URL: https://davouj.github.io/Bootstrap
 
 A responsive webpage showcasing an archive for my past and current projects.
 
-![Gif of page](/assets/images/portfolioGif.gif)
+![Gif of page](/assets/images/newportfoliogif.gif)
 
 ## Features
 
-* When the page is loaded it presents my name, a recent photo , and links to sections about me, my work, and a form to contact me.
+* When the page is loaded it presents my name, a photo , and links to sections about me, my work, and a form to contact me.
 * When one of the links in the navigation is clicked then the UI scrolls to the corresponding section.
 * When viewing the section about my work, it contains titled images of my applications.
 * When presented with the your first application, its image is larger in size than the others.
