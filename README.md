@@ -25,15 +25,17 @@ A responsive webpage showcasing an archive for my past and current projects.
 
 * When the page is loaded it presents my name, a photo , and links to sections about me, my work, and a form to contact me.
 * When one of the links in the navigation is clicked then the UI scrolls to the corresponding section.
-* When viewing the section about my work, it contains titled images of my applications.
-* When presented with the your first application, its image is larger in size than the others.
-* When images of the applications are clicked, the user is taken to that deployed application or Git repository.
+* When viewing the section about my projects, it contains cards consisting of my applications.
+* When buttons within the cards are clicked, the user is taken to that deployed application or Git repository.
+* When viewing my work experience, you can navigate through a carousel of jobs I've had.
 * When the page is resized or viewed on various screens and devices, the layout is responsive and adapts to the given viewport.
-
+* When the buttons in the contact section are clicked, you are redirected to my LinkedIn account or a draft email is made to contact me.
 
 ## Credits
 
 Original code created by Davou Jobbi.
+
+Inspiration from Apple OS UI and edX templates.
 
 ## License
 
@@ -73,6 +75,6 @@ No contributions.
 
 ## Tests
 
-No tests
+No tests.
 
 
