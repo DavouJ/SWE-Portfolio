@@ -13,7 +13,7 @@
 
 ## Deployment
 
-Application deployed via the live GitHub URL: https://davouj.github.io/Bootstrap-Portfolio/.
+Application deployed via the live GitHub URL: https://davouj.github.io/SWE-Portfolio/.
 
 ## Usage
 
